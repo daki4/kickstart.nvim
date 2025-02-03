@@ -1,0 +1,22 @@
+--local builtin = require 'telescope.builtin'
+--return {
+--  'folke/which-key.nvim',
+--  event = 'VeryLazy',
+--  config = function()
+--    local wk = require 'which-key'
+--    wk.setup { triggers = { 'f' } }
+--    wk.add {
+--      { 'f', group = 'Find' },
+--      { 'f.', builtin.oldfiles, desc = 'Recent Files' },
+--      { 'fd', builtin.diagnostics, desc = 'Diagnostics' },
+--      { 'ff', builtin.find_files, desc = 'Files' },
+--      { 'fg', builtin.live_grep, desc = 'Grep' },
+--      { 'fh', builtin.help_tags, desc = 'Help' },
+--      { 'fk', builtin.keymaps, desc = 'Keymaps' },
+--      { 'fr', builtin.resume, desc = 'Resume' },
+--      { 'fs', builtin.builtin, desc = 'Select Telescope' },
+--      { 'fw', builtin.grep_string, desc = 'Current Word' },
+--    }
+--  end,
+--}
+return {}
